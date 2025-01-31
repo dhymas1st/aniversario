@@ -1,0 +1,10 @@
+@use 'variables';
+
+.footer {
+    background-color: variables.$blue1;
+
+    &__content {
+        padding: 24px 0px;
+        text-align: center;
+    }
+}
